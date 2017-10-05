@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<object class="kapow.robot.common.domain.DomainModel">
+  <property name="entityModels" class="kapow.robot.common.domain.EntityModels">
+    <object class="kapow.robot.common.domain.EntityModel">
+      <property name="name" class="String">Store</property>
+      <property name="attributeModels" class="kapow.robot.common.domain.AttributeModels">
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">chainID</property>
+          <property name="type" class="kapow.robot.plugin.common.domain.IntegerAttributeType"/>
+          <property name="required" class="Boolean">true</property>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">name</property>
+          <property name="type" class="kapow.robot.plugin.common.domain.StringAttributeType" id="0"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">streetName</property>
+          <property name="type" idref="0"/>
+          <property name="required" class="Boolean">true</property>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">streetBuildingIdentifier</property>
+          <property name="type" idref="0"/>
+          <property name="required" class="Boolean">true</property>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">postCodeIdentifier</property>
+          <property name="type" idref="0"/>
+          <property name="required" class="Boolean">true</property>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">districtName</property>
+          <property name="type" idref="0"/>
+          <property name="required" class="Boolean">true</property>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">districtSubDivisionIdentifier</property>
+          <property name="type" idref="0"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">contactPerson</property>
+          <property name="type" idref="0"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">telephone</property>
+          <property name="type" idref="0"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">telefax</property>
+          <property name="type" idref="0"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">email</property>
+          <property name="type" idref="0"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">website</property>
+          <property name="type" idref="0"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">latitude</property>
+          <property name="type" class="kapow.robot.plugin.common.domain.DoubleAttributeType" id="1"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">longitude</property>
+          <property name="type" idref="1"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">mondayOpen</property>
+          <property name="type" class="kapow.robot.plugin.common.domain.DateAttributeType" id="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">mondayClose</property>
+          <property name="type" idref="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">tuesdayOpen</property>
+          <property name="type" idref="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">tuesdayClose</property>
+          <property name="type" idref="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">wednesdayOpen</property>
+          <property name="type" idref="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">wednesdayClose</property>
+          <property name="type" idref="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">thursdayOpen</property>
+          <property name="type" idref="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">thursdayClose</property>
+          <property name="type" idref="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">fridayOpen</property>
+          <property name="type" idref="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">fridayClose</property>
+          <property name="type" idref="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">saturdayOpen</property>
+          <property name="type" idref="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">saturdayClose</property>
+          <property name="type" idref="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">sundayOpen</property>
+          <property name="type" idref="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">sundayClose</property>
+          <property name="type" idref="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">firstAndLastSundayInMonthOpen</property>
+          <property name="type" idref="2"/>
+        </object>
+        <object class="kapow.robot.common.domain.AttributeModel">
+          <property name="name" class="String">firstAndLastSundayInMonthClose</property>
+          <property name="type" idref="2"/>
+        </object>
+      </property>
+      <property name="entityModelType" class="kapow.robot.plugin.common.domain.entitymodeltype.StandardExtractableEntityModelType"/>
+    </object>
+  </property>
+  <property name="roboTechVersion" class="Version">6.5</property>
+</object>
